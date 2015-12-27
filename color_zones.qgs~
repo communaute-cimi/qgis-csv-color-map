@@ -14,28 +14,26 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>70636.99998825963120908</xmin>
-      <ymin>6023125.14989566337317228</ymin>
-      <xmax>1270997.00001065712422132</xmax>
-      <ymax>7137000.84989658463746309</ymax>
+      <xmin>70637</xmin>
+      <ymin>6023125.15000000037252903</ymin>
+      <xmax>1270997</xmax>
+      <ymax>7137000.84999999962747097</ymax>
     </extent>
     <rotation>0</rotation>
-    <projections>1</projections>
+    <projections>0</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=lcc +nadgrids=@null +a=6378137.0000 +rf=298.2572221010000 +lat_0=46.500000000 +lon_0=3.000000000 +lat_1=44.000000000 +lat_2=49.000000000 +x_0=700000.000 +y_0=6600000.000 +units=m +no_defs</proj4>
-        <srsid>10089</srsid>
-        <srid>310024140</srid>
-        <authid>IGNF:LAMB93</authid>
-        <description>Lambert 93</description>
+        <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>145</srsid>
+        <srid>2154</srid>
+        <authid>EPSG:2154</authid>
+        <description>RGF93 / Lambert-93</description>
         <projectionacronym>lcc</projectionacronym>
-        <ellipsoidacronym>IGNF:ELG037</ellipsoidacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
-    <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="IGNF:LAMB93" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT20151218083740907"/>
-    </layer_coordinate_transform_info>
+    <layer_coordinate_transform_info/>
   </mapcanvas>
   <visibility-presets/>
   <layer-tree-canvas>
@@ -979,12 +977,12 @@
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
-      <Ellipsoid type="QString">IGNF:ELG037</Ellipsoid>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
     </Measure>
     <WMSPrecision type="QString">8</WMSPrecision>
     <WFSTLayers>
@@ -1019,9 +1017,10 @@
       <filterByMap type="bool">false</filterByMap>
     </Legend>
     <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=lcc +nadgrids=@null +a=6378137.0000 +rf=298.2572221010000 +lat_0=46.500000000 +lon_0=3.000000000 +lat_1=44.000000000 +lat_2=49.000000000 +x_0=700000.000 +y_0=6600000.000 +units=m +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">IGNF:LAMB93</ProjectCrs>
-      <ProjectCRSID type="int">10089</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:2154</ProjectCrs>
+      <ProjectCRSID type="int">145</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
     </SpatialRefSys>
     <DefaultStyles>
       <Fill type="QString"></Fill>

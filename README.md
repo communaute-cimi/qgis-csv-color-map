@@ -1,6 +1,6 @@
 # qgis-csv-color-map
 
-###Colorer une carte avec des données CSV avec du libre (LibreOffice et QGIS).
+###Colorer une carte avec des données CSV (LibreOffice et QGIS).
 
 Lier des données tabulaires avec des données géographiques c'est une demande récurrente dès lors qu'une organisation gère un térritoire que ce soit au niveau local ou national. 
 

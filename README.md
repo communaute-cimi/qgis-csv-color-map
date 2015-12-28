@@ -1,11 +1,9 @@
 # qgis-csv-color-map
 
-##Colorer une carte avec des données CSV dans QGIS
-
+Colorer une carte avec des données CSV avec du libre (LibreOffice et QGIS).
 
 <img src="/images/qgis-labelling.jpg" width="400">
 <img src="/images/ooo-pivot-final.png" align="left" width="250">
-
 
 Cette démo vous explique comment, à partir d'un fichier CSV comprenant une colonne département et une colonne compte, on peut facilement colorer une carte dans QGIS.
 

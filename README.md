@@ -97,11 +97,8 @@ Toujours dans les propriétés de la couche, aller dans "Etiquettes" puis lister
 
 <img src="/images/qgis-labelling.jpg" width="700" align="center"> 
 
-Si l'on souhaite afficher le département et le compteur, on peut taper par exemple : 
+Et voilà... 
 
-```
-"CODE_DEPT" || ' - ' ||  '(' ||"total" || ')'
-```
 
 ## Ressources
 * [Lier des données en fonction de leurs attributs : jointures attributaires](http://www.ades.cnrs.fr/tutoqgis/08_01_jointure_attrib.php)
@@ -109,9 +106,10 @@ Si l'on souhaite afficher le département et le compteur, on peut taper par exem
 * [Les Jointures de tables (JOIN)s](http://www.qgistutorials.com/fr/docs/performing_table_joins.html)
 * [Site du MEDDE, "jointures attributaires" (en PDF)](http://www.geoinformations.developpement-durable.gouv.fr/fichier/pdf/QGIS_jointure_avec_fichier_externe_cle5beef4.pdf?arg=177828611&cle=3a1f046f0dcb9df9a87a49ae4ab5f1766621b2fc&file=pdf%2FQGIS_jointure_avec_fichier_externe_cle5beef4.pdf)
 
-## Discussions, SAV
+## Discussions, S.A.V.
 
-Pour discuter de ce tutoriel vous pouvez nous retrouver sur le [forum de la CIMI](http://forum.cimi.ext.minint.fr) (accessible sur le réseau du MININT)
+Pour discuter de ce tutoriel vous pouvez nous retrouver sur le [forum de la CIMI](http://forum.cimi.ext.minint.fr) (accessible sur le réseau du MININT).
+
 
 
 

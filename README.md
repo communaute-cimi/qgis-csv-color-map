@@ -10,7 +10,7 @@ Les exemples sont innombrables cela peut aller de la réprésentation de la dél
 <img src="/images/qgis-labelling.jpg" width="400">
 <img src="/images/ooo-pivot-final.png" align="left" width="250">
 
-
+va
 Cette démo vous explique comment, à partir d'un fichier CSV comprenant une colonne département et une colonne compte, on peut facilement colorer une carte dans QGIS.
 
 Pour le tester il suffit de télécharger le projet et d'ouvrir le fichier <b>color_zones.qgs</b>.
@@ -77,7 +77,7 @@ Cliquer sur ok et vérifier la présence de la nouvelle colonne "total" et des v
 
 ## Ajouter le style
 
-Nous souhaitons colorer des zones en fonction de la valeur de la colonne total.
+Nous souhaitons colorer des zones en fonction des valeur de la colonne total.
 
 Pour cela, propriété du fichier de forme et cliquer sur style. 
 Dans la liste déroulante du haut choisir gradué (cela implique d'utilier une colonne de type entier). 

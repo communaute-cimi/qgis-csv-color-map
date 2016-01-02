@@ -10,8 +10,7 @@ Les exemples sont innombrables cela peut aller de la réprésentation de la dél
 <img src="/images/qgis-labelling.jpg" width="400">
 <img src="/images/ooo-pivot-final.png" align="left" width="250">
 
-va
-Cette démo vous explique comment, à partir d'un fichier CSV comprenant une colonne département et une colonne compte, on peut facilement colorer une carte dans QGIS.
+Ce tutoriel vous explique comment, à partir d'un fichier CSV comprenant une colonne département et une colonne compte, on peut facilement colorer une carte dans QGIS.
 
 Pour le tester il suffit de télécharger le projet et d'ouvrir le fichier <b>color_zones.qgs</b>.
 
@@ -19,13 +18,13 @@ Pour le tester il suffit de télécharger le projet et d'ouvrir le fichier <b>co
 
 La première étape est de disposer d'un fichier CSV comprenant les données que l'on souhaite représenter, soit une colonne de référence (j'ai pris les départements pour cette démo) et une colonne qui représente une somme (pour chaque département).
 
-La seconde étape est de trouver un fichier géographique (un fichier shapefile (.shp) généralement) qui contient la donnée de référence, dans notre exemple les numéros de département.
+La seconde étape est de trouver un fichier géographique, un fichier shapefile (.shp) par exemple, qui contient la donnée de référence, dans notre exemple : les numéros de département.
 
 Cela peut être décliné à l'infini à condition de pouvoir faire correspondre la données CSV et la donnée géographique, c'est à dire de pouvoir faire une jointure entre les deux fichiers.
 
 ## Ouvrir le fichier de forme
 
-Le fichier de forme (shape) est dans le répertoire datas (en fait plusieurs fichiers). Pour l'ouvrir soit vous déposez le fichier .shp dans l'application QGIS (glissé déposé), soit vous utiliser le bouton "ajouter une couche vecteur".
+Le fichier de forme (shapefile) est dans le répertoire datas (en fait plusieurs fichiers). Pour l'ouvrir soit vous déposez le fichier .shp dans l'application QGIS (glissé déposé), soit vous utiliser le bouton "ajouter une couche vecteur".
 
 Le rendu est la carte des déparements sans couleur, sans étiquette.
 

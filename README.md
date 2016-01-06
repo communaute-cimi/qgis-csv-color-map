@@ -107,7 +107,7 @@ Et voilà...
 
 ## Discussions, S.A.V.
 
-Pour discuter de ce tutoriel vous pouvez nous retrouver sur le [forum de la CIMI](http://forum.cimi.ext.minint.fr) (accessible sur le réseau du MININT).
+Pour discuter de ce tutoriel vous pouvez nous retrouver sur le [forum de la CIMI](http://forum.cimi.ext.minint.fr/viewtopic.php?f=10&t=569) (accessible sur le réseau du MININT).
 
 
 
